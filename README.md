@@ -1,6 +1,6 @@
 # RENDER — RabbitEars NextGen Data Evaluator and Reporter
 
-**Version 0.4.0**
+**Version 0.4.1**
 
 RENDER parses ATSC 3.0 signals and writes the results as an HTML report, similar to the TSReader HTML Export format. It was written with the help of Google Gemini and Anthropic Claude. It targets the Linux command line, but should compile on the Mac with the right prerequisites, and getting it working on Windows should be possible.
 
