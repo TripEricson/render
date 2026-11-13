@@ -1,0 +1,15 @@
+# Build output
+*.o
+render
+
+# Not part of the published source
+arch/
+specs/
+libatsc3/
+libhdhomerun/
+
+# Test inputs and generated reports
+*.pcap
+*.dbg
+*.html
+*.txt
