@@ -61,6 +61,15 @@ sudo dnf install gcc make pkgconf libpcap-devel libxml2-devel zlib-devel \
 
 (`ffmpeg-devel` comes from RPM Fusion.)
 
+### macOS
+
+```bash
+brew install pkg-config ffmpeg openssl
+git clone https://github.com/Silicondust/libhdhomerun.git
+```
+
+libxml2, libpcap, zlib and libcurl come with macOS. The Makefile finds Homebrew's OpenSSL, and when a `libhdhomerun` folder is present it compiles it into a static library, so no packaged libhdhomerun is needed.
+
 Then build:
 
 ```bash

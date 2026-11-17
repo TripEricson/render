@@ -67,7 +67,7 @@ typedef struct DataUsageEntry {
     uint64_t total_bytes;
     uint32_t packet_count;
     char description[128];
-    char stream_type[16];
+    char stream_type[32];               // longest value: "RTP/MPEG-TS Null"
     int is_lls;
     int is_signaling;
     // Per-stream timing for bitrate calculation (ALP-PCAP only)
